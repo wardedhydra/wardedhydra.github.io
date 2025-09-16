@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light grey background */
+            color: #333; /* Darker text color for contrast */
+            font-family: Arial, sans-serif; /* Font style */
+            margin: 0;
+            padding: 20px; /* Padding around the content */
+        }
+        h1 {
+            color: #0056b3; /* Dark blue for the heading */
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #0056b3;
+        }
+        .switch-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .switch-button:hover {
+            background-color: #003d80;
+        }
+    </style>
+    <script>
+        function switchToNewPage() {
+            window.location.href = "newtab.html";
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="newtab.html">New Tab</a>
+    </nav>
+    <h1>wardedhydra.github.io</h1>
+    <p>This is a simple web page.</p>
+    <p>The web page is not yet finished, please wait for the final update.</p>
+    <button class="switch-button" onclick="switchToNewPage()">Go to New Tab</button>
+</body>
+</html>
